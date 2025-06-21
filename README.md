@@ -41,5 +41,5 @@ EOF
 
 `docker logs -f cysic-verifier`
 
-`docker stop cysic-verifier`
+`docker stop cysic-verifier && docker rm -f cysic-verifier`
 
